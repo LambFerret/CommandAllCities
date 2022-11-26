@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/26/2022 11:12:57 AM -->
+<Context>
+	<Box Style="BGBlock">
+		<Grid Size="600, 600" Anchor="C,C" Style="Grid9DetailFive140" ConsumeMouse="1">
+			<Label Anchor="C,T" Offset="0,15" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_QUICKTURNS_TITLE"/>
+			<Stack Anchor="L,T" Offset="30,50" StackGrowth="Down" Padding="0">
+				<Container Anchor="L,C" Size="10000,30">
+					<Label Anchor="L,C" Offset="0,0" String="TXT_KEY_QUICKTURNS_PLAYER" ToolTip="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP" Font="TwCenMT20" FontStyle="Base" ColorSet="Beige_Black_Alpha"/>
+
+					<Stack Anchor="L,C" Offset="300,0" StackGrowth="Right" Padding="140">
+						<CheckBox ID="PlayerQuickMovement" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKMOVEMENT" ToolTip="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+						<CheckBox ID="PlayerQuickCombat" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKCOMBAT" ToolTip="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+					</Stack>
+				</Container>
+
+				<Container Anchor="L,C" Size="10000,30">
+					<Label Anchor="L,C" Offset="0,0" String="TXT_KEY_QUICKTURNS_PLAYER" ToolTip="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP" Font="TwCenMT20" FontStyle="Base" ColorSet="Beige_Black_Alpha"/>
+
+					<Stack Anchor="L,C" Offset="300,0" StackGrowth="Right" Padding="140">
+						<CheckBox ID="PlayerQuickMovement" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKMOVEMENT" ToolTip="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+						<CheckBox ID="PlayerQuickCombat" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKCOMBAT" ToolTip="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+					</Stack>
+				</Container>
+
+				<Container Anchor="L,C" Size="10000,30">
+					<Label Anchor="L,C" Offset="0,0" String="TXT_KEY_QUICKTURNS_PLAYER" ToolTip="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP" Font="TwCenMT20" FontStyle="Base" ColorSet="Beige_Black_Alpha"/>
+
+					<Stack Anchor="L,C" Offset="300,0" StackGrowth="Right" Padding="140">
+						<CheckBox ID="PlayerQuickMovement" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKMOVEMENT" ToolTip="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+						<CheckBox ID="PlayerQuickCombat" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKCOMBAT" ToolTip="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+					</Stack>
+				</Container>
+
+				<Container Anchor="L,C" Size="10000,30">
+					<Label Anchor="L,C" Offset="0,0" String="TXT_KEY_QUICKTURNS_PLAYER" ToolTip="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP" Font="TwCenMT20" FontStyle="Base" ColorSet="Beige_Black_Alpha"/>
+
+					<Stack Anchor="L,C" Offset="300,0" StackGrowth="Right" Padding="140">
+						<CheckBox ID="PlayerQuickMovement" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKMOVEMENT" ToolTip="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+						<CheckBox ID="PlayerQuickCombat" IsChecked="0" TextAnchor="R,C" String="TXT_KEY_QUICKTURNS_QUICKCOMBAT" ToolTip="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP" Style="SquareCheck" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Base"/>
+					</Stack>
+				</Container>
+			</Stack>
+
+		</Grid>
+	</Box>
+</Context>

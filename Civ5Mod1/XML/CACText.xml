@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/22/2022 3:56:53 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CAC_CREATE">
+			<Text>CREATE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAC_UPDATE">
+			<Text>UPDATE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAC_DELETE">
+			<Text>DELETE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAC_READ">
+			<Text>READ</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

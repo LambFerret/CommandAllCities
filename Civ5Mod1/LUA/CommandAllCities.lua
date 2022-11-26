@@ -2,12 +2,17 @@
 -- Author: LambFerret
 -- DateCreated: 11/22/2022 3:57:47 PM
 --------------------------------------------------------------
-local DebugEnabled = true;
-local DebugPrint = nil;
+
+--==--==--==--==--==--==pre setting--==--==--==--==--==--==--==
 local buildingsInfo = {};
 for row in GameInfo.Buildings() do
    buildingsInfo[row.ID] = row.Description
 end
+ContextPtr:SetHide(true);
+
+--==--==--==--==--==--==--debug-==--==--==--==--==--==--==--==
+local DebugEnabled = true;
+local DebugPrint = nil;
 
 if (DebugEnabled) then
    DebugPrint = function(name, string)
@@ -31,6 +36,9 @@ function dump(o)
    end
 end
 
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+
 function gatherListofBuildings(iPlayer)
    local canConstructMap = {};
    if (iPlayer ~= 0) then return end
@@ -46,3 +54,16 @@ function gatherListofBuildings(iPlayer)
 end
 
 GameEvents.PlayerDoTurn.Add(gatherListofBuildings)
+
+
+--==--==--==--==--==--==--==Open Window--==--==--==--==--==--==--==--==--==
+function OpenDialog().
+	ContextPtr:SetHide(false);
+	MapModData.QuickTurns.DialogOpen = true;
+end
+--==--==--==--==--==--==--==Close Window--==--==--==--==-==--==--==--==--==
+function CloseDialog()
+	ContextPtr:SetHide(true);
+	MapModData.QuickTurns.DialogOpen = false;
+end
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
